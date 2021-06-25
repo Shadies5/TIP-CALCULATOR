@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, whitesmoke, #FB8C00, whitesmoke, #FB8C00);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: black;
+    background: -webkit-linear-gradient(#333, rgb(160, 46, 46), #333);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    margin-top: 2%;
+    
+}
+
+.container {
+    display: inline-block;
+    background-color: white;
+    border: 2px black solid;
+    width: 100%;
+    max-width: 100%;
+    max-height: fit-content;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 5%;
+    
+}
+
+.container select, .container input, button {
+    cursor: pointer;
+}
+
+form input[type="number"] {
+    width: 100px;
+    border-radius: 5%;
+}
+form ::placeholder{
+    padding: 3%;
+}
+button {
+    color: whitesmoke;
+    width: 100px;
+    margin-top: 10px;
+    font-size: medium;
+    padding: 2px;
+    background-color: black;
+}
+
+button .iconify {
+    font-size: 15px;
+    line-height: 1em;
+    padding-top: 2px;
+}
+
+.output{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: solid;
+    padding:20px;
+    text-transform: uppercase;
+}
+
+#result {
+    background-color: rgba(44, 125, 136, 0.466);
+    text-align: center;
+    padding: 10px;
+}
+
+#tipNum, #totalPerTip, #totalPeople, #amountNum {
+    background-color: rgba(31, 26, 17, 0.466);
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right,rgba(44, 125, 136, 0.466), rgba(31, 26, 17, 0.466), rgba(44, 125, 136, 0.466));
+    color: whitesmoke
+}
